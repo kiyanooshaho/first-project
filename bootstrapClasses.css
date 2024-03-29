@@ -1,0 +1,637 @@
+/* --------------container-----------------------  */
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-fluid {
+  color: red;
+}
+
+/* ----------------------margin and padding ----------------------------- */
+
+.m-0,
+.m-1,
+.m-2,
+.m-3,
+.m-4,
+.m-5,
+.p-0,
+.p-1,
+.p-2,
+.p-3,
+.p-4,
+.p-5,
+.mx-0,
+.mx-1,
+.mx-2,
+.mx-3,
+.mx-4,
+.mx-5,
+.px-0,
+.px-1,
+.px-2,
+.px-3,
+.px-4,
+.px-5,
+.my-0,
+.my-1,
+.my-2,
+.my-3,
+.my-4,
+.my-5,
+.py-0,
+.py-1,
+.py-2,
+.py-3,
+.py-4,
+.py-5,
+.ml-0,
+.ml-1,
+.ml-2,
+.ml-3,
+.ml-4,
+.ml-5,
+.pl-0,
+.pl-1,
+.pl-2,
+.pl-3,
+.pl-4,
+.pl-5,
+.mr-0,
+.mr-1,
+.mr-2,
+.mr-3,
+.mr-4,
+.mr-5,
+.pr-0,
+.pr-1,
+.pr-2,
+.pr-3,
+.pr-4,
+.pr-5,
+.mt-0,
+.mt-1,
+.mt-2,
+.mt-3,
+.mt-4,
+.mt-5,
+.pt-0,
+.pt-1,
+.pt-2,
+.pt-3,
+.pt-4,
+.pt-5,
+.mb-0,
+.mb-1,
+.mb-2,
+.mb-3,
+.mb-4,
+.mb-5,
+.pb-0,
+.pb-1,
+.pb-2,
+.pb-3,
+.pb-4,
+.pb-5,
+
+/* -------------------border--------------  */
+
+.border,
+.border-top,
+.border-right,
+.border-bottom,
+.border-left,
+.border-0,
+.border-top-0,
+.border-right-0,
+.border-bottom-0,
+.border-left-0,
+.border-primary,
+.border-secondary,
+.border-success,
+.border-danger,
+.border-warning,
+.border-info,
+.border-light,
+.border-dark,
+.border-white {
+  color: red;
+}
+
+/* -----------------------border radius-------------------  */
+.rounded,
+.rounded-lg,
+.rounded-sm,
+.rounded-top,
+.rounded-right,
+.rounded-bottom,
+.rounded-left,
+.rounded-circle,
+.rounded-pill,
+.rounded-0 {
+  color: red;
+}
+
+/* -----------------give color  to TEXT -------------------------------  */
+.text-primary,
+.text-secondary,
+.text-success,
+.text-danger,
+.text-warning,
+.text-info,
+.text-light,
+.text-dark,
+.text-body,
+.text-muted,
+.text-white,
+.text-black-50,
+.text-white-50 {
+  color: red;
+}
+
+/* -------------------give color to background of element-----------------  */
+
+.bg-primary,
+.bg-secondary,
+.bg-success,
+.bg-danger,
+.bg-warning,
+.bg-info,
+.bg-light,
+.bg-dark,
+.bg-white,
+.bg-transparent {
+  color: red;
+}
+
+/* --------------------box shadowing-------------------------------------- */
+.shadow-none,
+.shadow-sm,
+.shadow,
+.shadow-lg {
+  color: red;
+}
+/* ----------------------aligment childern of element-------------------- */
+
+.text-left,
+.text-center,
+.text-right {
+  color: red;
+}
+.text-md-left,
+.text-md-center,
+.text-md-right {
+  color: red;
+}
+
+/* ----------------text class------------------------------- */
+
+.text-wrap,
+.text-nowrap,
+.text-lowercase,
+.text-uppercase,
+.text-capitalize,
+.font-weight-bold,
+.font-weight-bolder,
+.font-weight-normal,
+.font-weight-light,
+.font-weight-lighter,
+.font-italic,
+.text-monospace,
+.text-decoration-none {
+  color: red;
+}
+
+/* ------------------------------------size of text--------------------------- */
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: red;
+}
+
+/* ------------------------image classess--------------------------- */
+
+.img-fluid,
+.img-thumbnail {
+  color: red;
+}
+
+/* ---------------------------visibility------------------------------- */
+.visible,
+.invisible {
+  color: red;
+}
+/* --------------------size of element width and height related on parent------------ */
+.w-25,
+.w-50,
+.w-75,
+.w-100,
+.w-auto,
+.h-25,
+.h-50,
+.h-75,
+.h-100,
+.h-auto {
+  color: red;
+}
+
+.vw-100,
+.vh-100 {
+  color: red;
+}
+
+.min-vw-100,
+.min-vh-100 {
+  color: red;
+}
+
+/* -------------------background gradient------------------------- */
+
+/* When $enable-gradients is set to true (default is false), you can use .bg-gradient- utility classes. Learn about our Sass options to enable these classes and more. */
+
+.bg-gradient-primary,
+.bg-gradient-secondary,
+.bg-gradient-success,
+.bg-gradient-danger,
+.bg-gradient-warning,
+.bg-gradient-info,
+.bg-gradient-light,
+.bg-gradient-dark {
+  color: red;
+}
+
+/* --------------change display of element--------------------------- */
+
+/* .d-{value} for xs
+.d-{breakpoint}-{value} for sm, md, lg, and xl. */
+
+/* all size */
+.d-none,
+.d-inline,
+.d-inline-block,
+.d-block,
+.d-table,
+.d-table-cell,
+.d-table-row,
+.d-flex,
+.d-inline-flex {
+  color: red;
+}
+/* with breaking point sm */
+.d--sm-none,
+.d-sm-inline,
+.d-sm-inline-block,
+.d-sm-block,
+.d-sm-table,
+.d-sm-table-cell,
+.d-sm-table-row,
+.d-sm-flex,
+.d-sm-inline-flex {
+  color: red;
+}
+
+/* with breaking point md */
+.d-md-none,
+.d-md-inline,
+.d-md-inline-block,
+.d-md-block,
+.d-md-table,
+.d-md-table-cell,
+.d-md-table-row,
+.d-md-flex,
+.d-md-inline-flex {
+  color: red;
+}
+
+/* with breaking point lg */
+.d-lg-none,
+.d-lg-inline,
+.d-lg-inline-block,
+.d-lg-block,
+.d-lg-table,
+.d-lg-table-cell,
+.d-lg-table-row,
+.d-lg-flex,
+.d-lg-inline-flex {
+  color: red;
+}
+
+/* with breaking point xl */
+.d-lg-none,
+.d-lg-inline,
+.d-lg-inline-block,
+.d-lg-block,
+.d-lg-table,
+.d-lg-table-cell,
+.d-lg-table-row,
+.d-lg-flex,
+.d-lg-inline-flex {
+  color: red;
+}
+
+/* with breaking point xl */
+.d-xl-none,
+.d-xl-inline,
+.d-xl-inline-block,
+.d-xl-block,
+.d-xl-table,
+.d-xl-table-cell,
+.d-xl-table-row,
+.d-xl-flex,
+.d-xl-inline-flex {
+  color: red;
+}
+/* -----------------------------------table classes ----------------------------------- */
+.table,
+.table-dark,
+.thead-dark,
+.thead-light,
+.table-striped,
+.table-bordered,
+.table-borderless,
+.table-hover,
+.table-sm,
+.table-responsive {
+  color: red;
+}
+/* ----------------------------------------tag video embed iframe---------------- */
+
+/* <!-- 21:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-21by9">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+
+<!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+
+<!-- 4:3 aspect ratio -->
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+
+<!-- 1:1 aspect ratio -->
+<div class="embed-responsive embed-responsive-1by1">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+</div> */
+
+/* ----------------------------flexbox------------------------- */
+
+.flex-row,
+.flex-row-reverse,
+.flex-column,
+.flex-column-reverse,
+.flex-sm-row,
+.flex-sm-row-reverse,
+.flex-sm-column,
+.flex-sm-column-reverse,
+.flex-md-row,
+.flex-md-row-reverse,
+.flex-md-column,
+.flex-md-column-reverse,
+.flex-lg-row,
+.flex-lg-row-reverse,
+.flex-lg-column,
+.flex-lg-column-reverse,
+.flex-xl-row,
+.flex-xl-row-reverse,
+.flex-xl-column,
+.flex-xl-column-reverse {
+  color: red;
+}
+
+/* ------------------------justify content------------------------- */
+.justify-content-start,
+.justify-content-end,
+.justify-content-center,
+.justify-content-between,
+.justify-content-around,
+.justify-content-sm-start,
+.justify-content-sm-end,
+.justify-content-sm-center,
+.justify-content-sm-between,
+.justify-content-sm-around,
+.justify-content-md-start,
+.justify-content-md-end,
+.justify-content-md-center,
+.justify-content-md-between,
+.justify-content-md-around,
+.justify-content-lg-start,
+.justify-content-lg-end,
+.justify-content-lg-center,
+.justify-content-lg-between,
+.justify-content-lg-around,
+.justify-content-xl-start,
+.justify-content-xl-end,
+.justify-content-xl-center,
+.justify-content-xl-between,
+.justify-content-xl-around {
+  color: red;
+}
+/* -----------------------------------------------align items------------------------------------ */
+
+.align-items-start,
+.align-items-end,
+.align-items-center,
+.align-items-baseline,
+.align-items-stretch,
+.align-items-sm-start,
+.align-items-sm-end,
+.align-items-sm-center,
+.align-items-sm-baseline,
+.align-items-sm-stretch,
+.align-items-md-start,
+.align-items-md-end,
+.align-items-md-center,
+.align-items-md-baseline,
+.align-items-md-stretch,
+.align-items-lg-start,
+.align-items-lg-end,
+.align-items-lg-center,
+.align-items-lg-baseline,
+.align-items-lg-stretch,
+.align-items-xl-start,
+.align-items-xl-end,
+.align-items-xl-center,
+.align-items-xl-baseline,
+.align-items-xl-stretch {
+  color: red;
+}
+/* --------------------------------------------------------align self---------------------------- */
+
+.align-self-start,
+.align-self-end,
+.align-self-center,
+.align-self-baseline,
+.align-self-stretch,
+.align-self-sm-start,
+.align-self-sm-end,
+.align-self-sm-center,
+.align-self-sm-baseline,
+.align-self-sm-stretch,
+.align-self-md-start,
+.align-self-md-end,
+.align-self-md-center,
+.align-self-md-baseline,
+.align-self-md-stretch,
+.align-self-lg-start,
+.align-self-lg-end,
+.align-self-lg-center,
+.align-self-lg-baseline,
+.align-self-lg-stretch,
+.align-self-xl-start,
+.align-self-xl-end,
+.align-self-xl-center,
+.align-self-xl-baseline,
+.align-self-xl-stretch {
+  color: red;
+}
+
+/* --------------------------flex grow flex shrink---------------------------------------------------- */
+.flex-grow-or-shrink-0,
+.flex-grow-or-shrink-1,
+.flex-sm-grow-or-shrink-0,
+.flex-sm-grow-or-shrink-1,
+.flex-md-grow-or-shrink-0,
+.flex-md-grow-or-shrink-1,
+.flex-lg-grow-or-shrink-0,
+.flex-lg-grow-or-shrink-1,
+.flex-xl-grow-or-shrink-0,
+.flex-xl-grow-or-shrink-1 {
+  color: red;
+}
+
+/* --------------margin left or right auto--------------------- */
+.mr-auto,
+.ml-auto {
+  color: red;
+}
+/* --------------margin bottom or top auto--------------------- */
+.mb-auto,
+.mt-auto {
+  color: red;
+}
+
+/* ------------------flex wrap nowrap ------------------------- */
+
+.flex-nowrap,
+.flex-wrap,
+.flex-wrap-reverse,
+.flex-sm-nowrap,
+.flex-sm-wrap,
+.flex-sm-wrap-reverse,
+.flex-md-nowrap,
+.flex-md-wrap,
+.flex-md-wrap-reverse,
+.flex-lg-nowrap,
+.flex-lg-wrap,
+.flex-lg-wrap-reverse,
+.flex-xl-nowrap,
+.flex-xl-wrap,
+.flex-xl-wrap-reverse {
+  color: red;
+}
+
+order-0 .order-1,
+.order-2,
+.order-3,
+.order-4,
+.order-5,
+.order-6,
+.order-7,
+.order-8,
+.order-9,
+.order-10,
+.order-11,
+.order-12,
+.order-sm-0,
+.order-sm-1,
+.order-sm-2,
+.order-sm-3,
+.order-sm-4,
+.order-sm-5,
+.order-sm-6,
+.order-sm-7,
+.order-sm-8,
+.order-sm-9,
+.order-sm-10,
+.order-sm-11,
+.order-sm-12,
+.order-md-0,
+.order-md-1,
+.order-md-2,
+.order-md-3,
+.order-md-4,
+.order-md-5,
+.order-md-6,
+.order-md-7,
+.order-md-8,
+.order-md-9,
+.order-md-10,
+.order-md-11,
+.order-md-12,
+.order-lg-0,
+.order-lg-1,
+.order-lg-2,
+.order-lg-3,
+.order-lg-4,
+.order-lg-5,
+.order-lg-6,
+.order-lg-7,
+.order-lg-8,
+.order-lg-9,
+.order-lg-10,
+.order-lg-11,
+.order-lg-12,
+.order-xl-0,
+.order-xl-1,
+.order-xl-2,
+.order-xl-3,
+.order-xl-4,
+.order-xl-5,
+.order-xl-6,
+.order-xl-7,
+.order-xl-8,
+.order-xl-9,
+.order-xl-10,
+.order-xl-11,
+.order-xl-12 {
+  color: red;
+}
+
+/* -----------------text selectable by user------------------------------------------ */
+
+.user-select-all,
+.user-select-auto,
+.user-select-none {
+  color: red;
+}
+/* ------------------------overflow --------------------------------- */
+.overflow-auto,
+.overflow-hidden {
+  color: red;
+}
+/* -----------------------position--------------------------- */
+/* ---------for top left right bottom need to use addional css--------- */
+.position-static,
+.position-relative,
+.position-absolute,
+.position-fixed,
+.position-sticky {
+  color: red;
+}
+
+.fixed-top,
+.fixed-bottom,
+.sticky-top {
+  color: red;
+}
